@@ -4,7 +4,7 @@ The purpose of this repository aims to provide a hands-on architecture PoC(proof
 
 ## PoC Scenario 
 
-The sample contains Java and Node.js modules. In reality, the RPC framework usually are programming language specific, so the challenge for us is how to enable a MSA application with mixed-languages. This sample will show you the approach of proxy pattern.
+The sample contains Java and Node.js modules. In reality, the RPC framework usually are programming language specific, so the challenge for us is how to enable a MSA application with mixed-languages. This sample will show you the approach of service fabric(servicemesh) pattern.
 
 ### Overview
 
