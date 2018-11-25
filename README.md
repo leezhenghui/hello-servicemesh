@@ -8,7 +8,7 @@ The sample contains Java and Node.js modules. In reality, the RPC framework usua
 
 ### Overview
 
-![PoC Scenario Overview](./docs/architecture-msaproxy-components.png)
+![PoC Scenario Overview](./docs/architecture-servicemesh-components.png)
 
 ### Run the Sample 
 
@@ -20,14 +20,14 @@ For each service, we will schedule two instances and check the service discovery
 
 	On host:
   ```shell
-  git clone git@github.com:leezhenghui/hello-msaproxy.git
+  git clone git@github.com:leezhenghui/hello-servicemesh.git
   ```
 
 - Gradle build/deploy distribution
   
 	On host:
 	```shell
-	cd hello-msaproxy
+	cd hello-servicemesh
   gradle deploy 
   ```
 
