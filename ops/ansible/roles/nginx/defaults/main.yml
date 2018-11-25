@@ -1,7 +1,6 @@
 config_file: nginx.conf
 api_gateway_upstream_conf_file: api_gateway_upstream.conf
 external_server_conf_file: external_server.conf 
-internal_refs_conf_file: internal_refs.conf
 
 nginx_version: release-1.9.15
 nginx_src: /opt/nginx-src

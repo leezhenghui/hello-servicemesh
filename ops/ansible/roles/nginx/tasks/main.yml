@@ -85,16 +85,6 @@
   when: nginx_installed
   tags: [nginx]
 
-- name : Copy nginx internal refs conf file
-  copy:
-    src: "{{ internal_refs_conf_file }}"
-    dest: "{{ nginx_bin_dir }}/conf/{{ internal_refs_conf_file }}"
-    owner: root
-    group: root
-    mode: 0644
-  when: nginx_installed
-  tags: [nginx]
-
 - name: check nginx_autogen_conf stat
   stat: path={{ nginx_conf_autogen_dir }}
   register: ngx_conf_autogen_stat
