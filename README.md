@@ -13,6 +13,10 @@ The sample contains Java and Node.js modules. In reality, the RPC framework usua
 
 ![PoC Scenario Overview](./docs/architecture-servicemesh-components.png)
 
+### Sidecar Tasks 
+
+![Sidecar Pattern](./docs/architecture-sidecar-proxy-with-taskgroup.png)
+
 ### Run the Sample 
 
 All of service instances are using dynamic ports in this sample to demonstrate the auto-scale features. 
