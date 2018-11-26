@@ -12,7 +12,7 @@ The sample contains Java and Node.js modules. In reality, the RPC framework usua
 
 ### Run the Sample 
 
-For each service, we will schedule two instances and check the service discovery and load balance result.
+For each service, we will schedule two instances with dynamic ports, and make the invocation with auto-service discovery and load balancing.
 
 #### Steps
 
