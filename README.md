@@ -6,6 +6,9 @@ The purpose of this repository aims to provide a hands-on architecture PoC(proof
 
 The sample contains Java and Node.js modules. In reality, the RPC framework usually are programming language specific, so the challenge for us is how to enable a MSA application with mixed-languages. This sample will show you the approach of service fabric(servicemesh) pattern.
 
+>
+> The sample is based on consul connect for the serviemesh. We want to use it to demonsrate the service mesh concepts for a hybrid environments(docker is not the only packing method, mixed deployable types for the service orchestration which could not be achieved by k8s only. cloud-native and on-premise co-exists). Please note, Consule connect was introduced in Consul 1.2 and be marked as beta quality for now, thus, not ready to be used in a production environment.
+
 ### Overview
 
 ![PoC Scenario Overview](./docs/architecture-servicemesh-components.png)
