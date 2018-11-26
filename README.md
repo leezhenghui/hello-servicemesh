@@ -26,6 +26,11 @@ All of service instances are using dynamic ports in this sample to demonstrate t
 
 #### Steps
 
+- Prerequisites 
+  - Java
+  - Node.js
+  - Gradle
+
 - Git clone the project
 
 	On host:
@@ -35,9 +40,11 @@ All of service instances are using dynamic ports in this sample to demonstrate t
 
 - Gradle build/deploy distribution
   
-	On host:
-	```shell
-	cd hello-servicemesh
+  On host:
+  ```shell
+  cd hello-servicemesh/modules/frontend
+  npm install
+  cd ../../
   gradle deploy 
   ```
 
