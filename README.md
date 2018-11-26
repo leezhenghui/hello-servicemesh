@@ -12,7 +12,10 @@ The sample contains Java and Node.js modules. In reality, the RPC framework usua
 
 ### Run the Sample 
 
-For each service, we will schedule two instances with dynamic ports, and make the invocation with auto-service discovery and load balancing.
+All of service instances are using dynamic ports in this sample to demonstrate the auto-scale features. 
+
+> 
+> As we want to focus on servicemesh part in the sample, to make the verification(for service discovery and load balancing) ealier, only the internal services are scheduled multiple instances in this sample. If you are interested in the edge services, please refer to [hello-msaproxy](https://github.com/leezhenghui/hello-msaproxy) for details.
 
 #### Steps
 
