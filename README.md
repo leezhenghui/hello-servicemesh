@@ -1,6 +1,6 @@
 ## Introduction
 
-The purpose of this repository aims to provide a hands-on architecture PoC(proof-of-concept) sample that demonstrate how to **build** and **run** a `microservices architecture`(MSA) application(multiple programming languages) with the capabilities of service registry, naming resolution, client service disovery, client load balance, traffic shapping, failure tolerance, etc. 
+The purpose of this repository aims to provide a hands-on parctice for my series articles [build a modern scalable system](https://leezhenghui.github.io/microservices/2018/11/20/build-a-scalable-system-practice-on-service-mesh-consul-builtin-proxy.html). With this PoC(proof-of-concept) sample, we can learn  how to **build** and **run** a `microservices architecture`(MSA) application(multiple programming languages) with the capabilities of service registry, naming resolution, client service disovery, client load balance, traffic shapping, failure tolerance, etc. 
 
 ## PoC Scenario 
 
